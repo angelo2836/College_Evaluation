@@ -1,2 +1,2 @@
-# College_Evaluation
-College Instructor's Evaluation Program
+# Evaluation_program
+College Teacher's Evaluation Program
