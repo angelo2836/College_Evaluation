@@ -63,7 +63,9 @@
                             <tr>
                                 <td class="padding-20"><?php echo $instructor_name; ?></td>
                                 <td class="text-center padding-20">
-                                    <a href="dashboard.php?rating=<?php echo $row['ID']; ?>" ><i class="fa-solid fa-list-check"></i>
+                                    <a href="dashboard_rating_per_title.php?rating=<?php echo $row['ID']; ?>" ><i class="fa-regular fa-face-smile"></i>
+                                    <a href="dashboard_view_rating.php?rating=<?php echo $row['ID']; ?>" ><i class="fa-solid fa-star"></i>
+                                    <a href="rating.php?rating=<?php echo $row['ID']; ?>" ><i class="fa-solid fa-list-check"></i>
                                     <a href="dashboard.php?update=<?php echo $row['ID']; ?>"><i class="fa-solid fa-pencil" 
                                         aria-hidden="true"></i>
                                     
@@ -79,7 +81,7 @@
             </table>
 
         </div>
-    </div>
+    
 
     <!-- Add Modal -->
     <div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
